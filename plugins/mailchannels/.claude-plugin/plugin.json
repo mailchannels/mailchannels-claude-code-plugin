@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mailchannels",
+  "displayName": "MailChannels",
+  "version": "1.0.1",
+  "description": "Send email with MailChannels",
+  "author": {
+    "name": "MailChannels Corporation",
+    "email": "support@mailchannels.com",
+    "url": "https://www.mailchannels.com/"
+  },
+  "homepage": "https://docs.mailchannels.net/email-api",
+  "repository": "https://github.com/mailchannels/mailchannels-claude-code-plugin",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "transactional-email",
+    "mailchannels",
+    "deliverability",
+    "webhooks",
+    "multi-tenant"
+  ],
+  "skills": "./skills/",
+  "defaultEnabled": true
+}

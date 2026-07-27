@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mailchannels",
+  "version": "1.0.1",
+  "description": "Official MailChannels skills for outbound email development and operations",
+  "owner": {
+    "name": "MailChannels Corporation",
+    "email": "support@mailchannels.com"
+  },
+  "plugins": [
+    {
+      "name": "mailchannels",
+      "source": "./plugins/mailchannels",
+      "description": "Send email with MailChannels",
+      "version": "1.0.1",
+      "author": {
+        "name": "MailChannels Corporation",
+        "email": "support@mailchannels.com"
+      },
+      "homepage": "https://docs.mailchannels.net/email-api",
+      "license": "MIT",
+      "keywords": [
+        "email",
+        "transactional-email",
+        "mailchannels",
+        "webhooks",
+        "multi-tenant"
+      ],
+      "category": "development",
+      "tags": [
+        "email",
+        "sdk",
+        "deliverability",
+        "automation"
+      ],
+      "strict": true
+    }
+  ]
+}
