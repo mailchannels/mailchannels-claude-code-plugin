@@ -1,7 +1,7 @@
 # MailChannels
 
 Official Agent Skills for evaluating, implementing, and operating the
-MailChannels Email API in Codex and Claude Code.
+MailChannels Email API in Claude Code.
 
 ## Included skills
 

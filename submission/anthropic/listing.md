@@ -5,7 +5,7 @@
 - Plugin slug: `mailchannels`
 - Display name: MailChannels
 - Publisher: MailChannels Corporation
-- Version: 1.0.1
+- Version: 1.0.2
 - Category: development
 - Description: Send email with MailChannels
 - Homepage: <https://docs.mailchannels.net/email-api>
@@ -27,7 +27,7 @@
      <https://claude.ai/admin-settings/directory/submissions/plugins/new>
 6. After approval, verify the plugin is listed in the `claude-community`
    marketplace and installs as `mailchannels@claude-community`.
-7. Tag the reviewed commit as `v1.0.1` and keep the `mailchannels` slug
+7. Tag the reviewed commit as `v1.0.2` and keep the `mailchannels` slug
    immutable. Use `displayName` for future presentation changes.
 
 Third-party submissions land in the reviewed Claude Code community marketplace.

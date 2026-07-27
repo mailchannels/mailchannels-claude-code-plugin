@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mailchannels",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official MailChannels skills for outbound email development and operations",
   "owner": {
     "name": "MailChannels Corporation",
@@ -12,7 +12,7 @@
       "name": "mailchannels",
       "source": "./plugins/mailchannels",
       "description": "Send email with MailChannels",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "MailChannels Corporation",
         "email": "support@mailchannels.com"

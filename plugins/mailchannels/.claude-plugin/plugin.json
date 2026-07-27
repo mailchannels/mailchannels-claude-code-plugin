@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mailchannels",
   "displayName": "MailChannels",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Send email with MailChannels",
   "author": {
     "name": "MailChannels Corporation",
