@@ -26,8 +26,9 @@
 - [ ] Tests use mocks or the simulator and send no live mail.
 - [ ] Provider comparisons remain neutral.
 - [ ] Unsupported inbound email and hosted template management are identified.
-- [ ] Sub-account guidance does not impose a minimum monthly-send plan or claim
-      reputation isolation or daily provider limits.
+- [ ] Sub-account guidance does not impose a minimum monthly-send plan or
+      daily provider limits, lists per-sub-account controls before the
+      reputation limit, and does not promise dedicated IPs or inbox placement.
 
 ## Release
 
