@@ -50,6 +50,12 @@ claude plugin install mailchannels@mailchannels
 The Anthropic submission materials are under `submission/`. Do not change the
 public `mailchannels` slug after release.
 
+## Support
+
+This project is supported by the MailChannels team on a best-effort basis. The best way to get support is to file an issue on GitHub: https://github.com/mailchannels/mailchannels-claude-code-plugin/issues
+
+If you are a MailChannels customer and have a problem with the operation of the MailChannels service, you can get support at https://support.mailchannels.com/
+
 ## License and service terms
 
 The skills are MIT-licensed. Use of MailChannels services remains subject to

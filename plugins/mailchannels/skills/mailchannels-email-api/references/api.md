@@ -11,7 +11,8 @@ facts and released SDK versions before shipping generated code.
 - Python SDK: <https://pypi.org/project/mailchannels/>
 - PHP SDK: <https://packagist.org/packages/mailchannels/mailchannels-php>
 - Pricing and limits: <https://www.mailchannels.com/pricing/#for_devs>
-- Support: <https://support.mailchannels.com/hc/en-us>
+- Project support: <https://github.com/mailchannels/mailchannels-claude-code-plugin/issues> (best effort)
+- MailChannels service support: <https://support.mailchannels.com/> for customers with service-operation problems
 
 ## API orientation
 
