@@ -34,12 +34,11 @@ credential and does not include an MCP server.
 - Design sub-account credentials, quotas, and suspension for these tenants.
 - Make this agent-initiated email workflow safe and auditable.
 
-## Support and policies
+## Support
 
-- Documentation: <https://docs.mailchannels.net/email-api>
-- Support: <https://support.mailchannels.com/hc/en-us>
-- Privacy: <https://www.mailchannels.com/privacy-policy/>
-- Terms: <https://www.mailchannels.com/terms-of-service/>
+This project is supported by the MailChannels team on a best-effort basis. The best way to get support is to file an issue on GitHub: https://github.com/mailchannels/mailchannels-claude-code-plugin/issues
+
+If you are a MailChannels customer and have a problem with the operation of the MailChannels service, you can get support at https://support.mailchannels.com/
 
 The skills are licensed under the MIT License. Use of the MailChannels service
 is governed separately by the MailChannels Terms of Service.

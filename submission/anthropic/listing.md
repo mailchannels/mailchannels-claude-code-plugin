@@ -10,7 +10,7 @@
 - Description: Send email with MailChannels
 - Homepage: <https://docs.mailchannels.net/email-api>
 - Source: <https://github.com/mailchannels/mailchannels-claude-code-plugin>
-- Support: <https://support.mailchannels.com/hc/en-us>
+- Support: This project is supported by the MailChannels team on a best-effort basis. File an issue on GitHub: <https://github.com/mailchannels/mailchannels-claude-code-plugin/issues>. MailChannels customers with problems operating the MailChannels service can get support at <https://support.mailchannels.com/>.
 - License: MIT
 
 ## Submission procedure
