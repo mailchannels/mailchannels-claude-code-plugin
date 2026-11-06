@@ -13,7 +13,7 @@
 
 - [ ] All six skill validators pass.
 - [ ] `claude plugin validate . --strict` passes.
-- [ ] The Claude manifest and marketplace catalog report `1.0.2`.
+- [ ] The Claude manifest and marketplace catalog report `1.1.0`.
 - [ ] No evaluation-only metadata, simulation-only claims, dated prerelease
       suffixes, copied third-party content, or secret material appears in the
       package.
@@ -25,13 +25,18 @@
 - [ ] JavaScript, Python, and PHP examples pass against current released SDKs.
 - [ ] Tests use mocks or the simulator and send no live mail.
 - [ ] Provider comparisons remain neutral.
-- [ ] Unsupported inbound email and hosted template management are identified.
-- [ ] Sub-account guidance does not impose a minimum monthly-send plan or claim
-      reputation isolation or daily provider limits.
+- [ ] The `Scope` section states the documented limits as facts: outbound
+      email only and no hosted template library.
+- [ ] Sub-account guidance matches the documented wording on
+      <https://docs.mailchannels.com/email-api/multi-tenancy>: per-sub-account
+      API keys and SMTP passwords, limits (`-1` inherits the parent's), suspend
+      and activate, suppressions, webhooks, usage, and reputation isolation.
+- [ ] `plugins/mailchannels/skills/` is byte-identical to the same tree in
+      mailchannels-codex-plugin (`diff -r` prints nothing).
 
 ## Release
 
 - [ ] A clean user can add the Claude marketplace and install the plugin.
-- [ ] The reviewed commit is tagged `v1.0.2`.
+- [ ] The reviewed commit is tagged `v1.1.0`.
 - [ ] Submission bundles, validator output, test evidence, approvals, and commit
       SHA are archived.

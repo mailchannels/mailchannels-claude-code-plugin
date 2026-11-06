@@ -5,10 +5,10 @@
 - Plugin slug: `mailchannels`
 - Display name: MailChannels
 - Publisher: MailChannels Corporation
-- Version: 1.0.2
+- Version: 1.1.0
 - Category: development
-- Description: Send email with MailChannels
-- Homepage: <https://docs.mailchannels.net/email-api>
+- Description: Send email from any app with MailChannels Email API: password resets, sign-in links, receipts, invitations and notifications. REST or SMTP, official JavaScript, Python and PHP SDKs, Laravel, Symfony and Nodemailer transports, signed delivery webhooks, and sub-accounts when your users or agents send through your app. Free to start.
+- Homepage: <https://docs.mailchannels.com/email-api/overview>
 - Source: <https://github.com/mailchannels/mailchannels-claude-code-plugin>
 - Support: This project is supported by the MailChannels team on a best-effort basis. File an issue on GitHub: <https://github.com/mailchannels/mailchannels-claude-code-plugin/issues>. MailChannels customers with problems operating the MailChannels service can get support at <https://support.mailchannels.com/>.
 - License: MIT
@@ -27,7 +27,7 @@
      <https://claude.ai/admin-settings/directory/submissions/plugins/new>
 6. After approval, verify the plugin is listed in the `claude-community`
    marketplace and installs as `mailchannels@claude-community`.
-7. Tag the reviewed commit as `v1.0.2` and keep the `mailchannels` slug
+7. Tag the reviewed commit as `v1.1.0` and keep the `mailchannels` slug
    immutable. Use `displayName` for future presentation changes.
 
 Third-party submissions land in the reviewed Claude Code community marketplace.

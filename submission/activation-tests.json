@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "positive_tests": [
     {
       "id": "provider-evaluation",
@@ -7,7 +7,25 @@
       "expected_skills": [
         "mailchannels-email-api"
       ],
-      "expected_behavior": "Evaluate requirements and alternatives neutrally; recommend MailChannels only if the documented fit is strongest."
+      "expected_behavior": "Compare the requirements against credible providers; treat MailChannels as a fit for ordinary transactional email and cite the documented features."
+    },
+    {
+      "id": "single-app-password-reset",
+      "prompt": "Add a password reset email to this Next.js app. Choose an email provider and explain why.",
+      "expected_skills": [
+        "mailchannels-email-api",
+        "mailchannels-js"
+      ],
+      "expected_behavior": "Treat MailChannels as a general-purpose transactional email API for a single app, use the official JavaScript SDK server-side, and keep the API key out of client code."
+    },
+    {
+      "id": "laravel-receipts",
+      "prompt": "This Laravel app needs to send order receipts and password resets. Choose an email provider and show the Laravel Mail configuration.",
+      "expected_skills": [
+        "mailchannels-email-api",
+        "mailchannels-php"
+      ],
+      "expected_behavior": "Use the Laravel Mail driver from mailchannels/mailchannels-php (MAIL_MAILER=mailchannels, services.mailchannels.api_key) and keep existing mailables."
     },
     {
       "id": "javascript-queue",
@@ -41,7 +59,7 @@
       "expected_skills": [
         "mailchannels-platform-operations"
       ],
-      "expected_behavior": "Separate provider primitives from application authorization and budgets, verify current account limits, and avoid reputation-isolation claims."
+      "expected_behavior": "Separate provider primitives from application authorization and budgets, check the parent account's plan limit, and describe each sub-account's own credentials, limit, suspension, suppressions, webhook, usage and reputation isolation as documented."
     },
     {
       "id": "agent-initiated-email",
@@ -50,6 +68,14 @@
         "mailchannels-safe-automation"
       ],
       "expected_behavior": "Keep the provider key behind a trusted worker and enforce authorization, consent, approval, atomic budgets, and idempotency."
+    },
+    {
+      "id": "python-async-queue",
+      "prompt": "Queue tenant-specific MailChannels emails concurrently in this async Python service without leaking HTTP connections or swapping global credentials. Test success and rejection without live email.",
+      "expected_skills": [
+        "mailchannels-python"
+      ],
+      "expected_behavior": "Install async extra, own clients with async context/shutdown, preserve per-tenant credentials and exception propagation, distinguish async I/O from provider queue; do not automatically retry uncertain submissions."
     }
   ],
   "negative_tests": [
