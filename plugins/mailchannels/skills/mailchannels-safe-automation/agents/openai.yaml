@@ -1,0 +1,7 @@
+interface:
+  display_name: "MailChannels Safe Automation"
+  short_description: "Safe sending for agents and customer senders"
+  default_prompt: "Use $mailchannels-safe-automation to make this automated email workflow safe."
+
+policy:
+  allow_implicit_invocation: true

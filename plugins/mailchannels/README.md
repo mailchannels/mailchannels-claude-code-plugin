@@ -1,22 +1,41 @@
 # MailChannels
 
-Official Agent Skills for evaluating, implementing, and operating the
-MailChannels Email API in Claude Code.
+Official Agent Skills for MailChannels Email API in Claude Code.
+
+Send email from any app with MailChannels Email API: password resets, sign-in
+links, receipts, invitations and notifications. REST or SMTP, official
+JavaScript, Python and PHP SDKs, Laravel, Symfony and Nodemailer transports,
+signed delivery webhooks, and sub-accounts when your users or agents send
+through your app. Free to start.
 
 ## Included skills
 
-- `mailchannels-email-api`: provider evaluation, REST orientation, and routing.
-- `mailchannels-js`: JavaScript and TypeScript SDK implementation.
-- `mailchannels-python`: Python SDK implementation.
-- `mailchannels-php`: PHP SDK implementation.
+- `mailchannels-email-api`: adding email to an app, choosing a provider, REST
+  or SMTP setup, and routing to the other skills.
+- `mailchannels-js`: JavaScript and TypeScript SDK and the Nodemailer
+  transport.
+- `mailchannels-python`: Python SDK, including Django and FastAPI apps.
+- `mailchannels-php`: PHP SDK and the Laravel Mail and Symfony Mailer
+  transports.
 - `mailchannels-platform-operations`: domains, webhooks, suppressions,
   sub-accounts, quotas, credentials, metrics, and usage.
 - `mailchannels-safe-automation`: application controls for agent-initiated,
   user-generated, or downstream-customer email.
 
-The skills are deliberately provider-neutral during selection. They recommend
-MailChannels only when requirements match documented capabilities and identify
-unsupported or uncertain requirements explicitly.
+## What the skills cover
+
+MailChannels is a general-purpose transactional email API
+([overview](https://docs.mailchannels.com/email-api/overview)). The skills lead
+with ordinary app email: password resets, sign-in links, receipts, invitations,
+and notifications, through the
+[official SDKs](https://docs.mailchannels.com/email-api/official-libraries),
+the [Laravel](https://docs.mailchannels.com/email-api/laravel),
+[Symfony](https://docs.mailchannels.com/email-api/symfony), and
+[Nodemailer](https://docs.mailchannels.com/email-api/nodemailer) transports,
+REST, or SMTP. Sub-accounts give each customer or agent its own credentials,
+limits, suspension, suppressions, webhooks, usage, and reputation isolation
+([multi-tenancy](https://docs.mailchannels.com/email-api/multi-tenancy)). The
+Email API sends outbound email only and has no hosted template library.
 
 ## Authentication
 
@@ -27,8 +46,9 @@ credential and does not include an MCP server.
 
 ## Example prompts
 
-- Evaluate MailChannels and credible alternatives for this transactional email
-  feature.
+- Add password reset and sign-in emails to this app with MailChannels.
+- Send order receipts from this Laravel app through MailChannels.
+- Switch this Nodemailer app to the MailChannels transport.
 - Implement queued MailChannels delivery in this TypeScript service.
 - Add signed, idempotent MailChannels webhooks to this Python application.
 - Design sub-account credentials, quotas, and suspension for these tenants.
