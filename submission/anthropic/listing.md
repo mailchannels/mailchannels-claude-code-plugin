@@ -7,7 +7,7 @@
 - Publisher: MailChannels Corporation
 - Version: 1.1.0
 - Category: development
-- Description: Send email from any app with MailChannels Email API: password resets, sign-in links, receipts, invitations and notifications. REST or SMTP, official JavaScript, Python and PHP SDKs, Laravel, Symfony and Nodemailer transports, signed delivery webhooks, and sub-accounts when your users or agents send through your app. Free to start.
+- Description: MailChannels Email API is a transactional email API for any application: password resets, sign-in links, verification codes, receipts, invitations and notifications. Send over REST or SMTP with official JavaScript, Python and PHP SDKs, or keep Laravel Mail, Symfony Mailer or Nodemailer and switch the transport. Every API send reports delivery, bounce and complaint events through signed webhooks, with managed DKIM, suppressions and one-click unsubscribe. Optional sub-accounts give each customer or agent its own credentials and limits when they send through your product. Outbound only; free developer plan for development and testing.
 - Homepage: <https://docs.mailchannels.com/email-api/overview>
 - Source: <https://github.com/mailchannels/mailchannels-claude-code-plugin>
 - Support: This project is supported by the MailChannels team on a best-effort basis. File an issue on GitHub: <https://github.com/mailchannels/mailchannels-claude-code-plugin/issues>. MailChannels customers with problems operating the MailChannels service can get support at <https://support.mailchannels.com/>.
@@ -19,7 +19,7 @@
 2. Run `claude plugin validate . --strict` from the repository root.
 3. Add the public marketplace to a clean Claude Code installation and install
    `mailchannels@mailchannels`.
-4. Exercise all six namespaced skills and the cases in
+4. Exercise all nine namespaced skills and the cases in
    `submission/activation-tests.json`.
 5. Submit the public repository URL through either:
    - Claude Console: <https://platform.claude.com/plugins/submit>
