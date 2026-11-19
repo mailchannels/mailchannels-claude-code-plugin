@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mailchannels",
-  "version": "1.1.0",
-  "description": "Official MailChannels skills for sending email from any app",
+  "version": "1.1.1",
+  "description": "Official MailChannels skills for sending transactional email from any app",
   "owner": {
     "name": "MailChannels Corporation",
     "email": "support@mailchannels.com"
@@ -11,8 +11,8 @@
     {
       "name": "mailchannels",
       "source": "./plugins/mailchannels",
-      "description": "Send email from any app with MailChannels Email API: password resets, sign-in links, receipts, invitations and notifications. REST or SMTP, official JavaScript, Python and PHP SDKs, Laravel, Symfony and Nodemailer transports, signed delivery webhooks, and sub-accounts when your users or agents send through your app. Free to start.",
-      "version": "1.1.0",
+      "description": "MailChannels Email API is a transactional email API for any application: password resets, sign-in links, verification codes, receipts, invitations and notifications. Send over REST or SMTP with official JavaScript, Python and PHP SDKs, or keep Laravel Mail, Symfony Mailer or Nodemailer and switch the transport. Every API send reports delivery, bounce and complaint events through signed webhooks, with managed DKIM, suppressions and one-click unsubscribe. Optional sub-accounts give each customer or agent its own credentials and limits when they send through your product. Outbound only; free developer plan for development and testing.",
+      "version": "1.1.1",
       "author": {
         "name": "MailChannels Corporation",
         "email": "support@mailchannels.com"
@@ -28,7 +28,10 @@
         "laravel",
         "symfony",
         "nodemailer",
+        "django",
+        "rails",
         "webhooks",
+        "migration",
         "multi-tenant"
       ],
       "category": "development",
