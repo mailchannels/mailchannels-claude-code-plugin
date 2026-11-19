@@ -5,7 +5,7 @@
 - Plugin slug: `mailchannels`
 - Display name: MailChannels
 - Publisher: MailChannels Corporation
-- Version: 1.1.0
+- Version: 1.1.1
 - Category: development
 - Description: MailChannels Email API is a transactional email API for any application: password resets, sign-in links, verification codes, receipts, invitations and notifications. Send over REST or SMTP with official JavaScript, Python and PHP SDKs, or keep Laravel Mail, Symfony Mailer or Nodemailer and switch the transport. Every API send reports delivery, bounce and complaint events through signed webhooks, with managed DKIM, suppressions and one-click unsubscribe. Optional sub-accounts give each customer or agent its own credentials and limits when they send through your product. Outbound only; free developer plan for development and testing.
 - Homepage: <https://docs.mailchannels.com/email-api/overview>
@@ -27,7 +27,7 @@
      <https://claude.ai/admin-settings/directory/submissions/plugins/new>
 6. After approval, verify the plugin is listed in the `claude-community`
    marketplace and installs as `mailchannels@claude-community`.
-7. Tag the reviewed commit as `v1.1.0` and keep the `mailchannels` slug
+7. Tag the reviewed commit as `v1.1.1` and keep the `mailchannels` slug
    immutable. Use `displayName` for future presentation changes.
 
 Third-party submissions land in the reviewed Claude Code community marketplace.

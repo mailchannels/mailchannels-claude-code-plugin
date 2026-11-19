@@ -13,7 +13,7 @@
 
 - [ ] All nine skill validators pass.
 - [ ] `claude plugin validate . --strict` passes.
-- [ ] The Claude manifest and marketplace catalog report `1.1.0`.
+- [ ] The Claude manifest and marketplace catalog report `1.1.1`.
 - [ ] No evaluation-only metadata, simulation-only claims, dated prerelease
       suffixes, copied third-party content, or secret material appears in the
       package.
@@ -43,6 +43,6 @@
 ## Release
 
 - [ ] A clean user can add the Claude marketplace and install the plugin.
-- [ ] The reviewed commit is tagged `v1.1.0`.
+- [ ] The reviewed commit is tagged `v1.1.1`.
 - [ ] Submission bundles, validator output, test evidence, approvals, and commit
       SHA are archived.
